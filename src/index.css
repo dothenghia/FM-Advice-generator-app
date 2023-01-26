@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap');
+
+:root {
+    --font-quote : 28px;
+    --font-family : 'Manrope';
+
+    --color-quote : #CFE4E9;
+    --color-neon-green : #53FFAB;
+    --color-app-bg : #313A49;
+    --color-bg : #202632;
+
+    --app-width : 520px;
+    --app-height : 320px;
+}
+
+@media screen and (max-width: 650px) {
+    :root {
+        --app-width: 350px;
+        --app-height: 320px;
+
+        --font-quote: 22px;
+    }
+}
