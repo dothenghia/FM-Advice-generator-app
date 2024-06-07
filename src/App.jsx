@@ -37,7 +37,7 @@ const App = () => {
     return (
         <div id='app'>
             <p className='title'>ADVICE { quote !== null ? `#${quote.slip.id}` : '' }</p>
-            <p className='quote'>"{ quote !== null ? `${quote.slip.advice}` : '' }"</p>
+            <p className='quote'>"{ quote !== null ? `${quote.slip.advice}` : 'Loading...' }"</p>
             <div className="divider">
                 <img className='divider-desktop' src={dividerDesktop} alt="Divider Desktop" />
                 <img className='divider-mobile' src={dividerMobile} alt="Divider Mobile" />
